@@ -47,12 +47,48 @@
 
 # ================================
 
-a = 0
-b = 1
-user = int(input("Enter num :"))
-arr = []
-for i in range(user):
-    arr.append(a)
-    a,b = b, a+b
+# a = 0
+# b = 1
+# user = int(input("Enter num :"))
+# arr = []
+# for i in range(user):
+#     arr.append(a)
+#     a,b = b, a+b
     
-print(arr)
+# print(arr)
+
+# ================================
+# n = 5
+# for i in range(1,n+1):
+#     print("*" * i)
+
+# --------------------------
+
+# n = 6
+# for i in range(1,n):
+#     print(" " * (n-i) ,"*" * i)
+# --------------------------
+
+# n = 6
+# for i in range(1,n):
+#     print(" " * (n-i) ," *" * i)
+# --------------------------
+
+# n = 6
+# for i in range(1,n):
+#     print("*" * (n-i))
+# --------------------------
+
+# n = 6
+# for i in range(1,n):
+#     print(" " * i ,"*" * (n-i))
+# --------------------------
+
+
+# n = 6
+# for i in range(1,6):
+#     print(" "*i, "* " * (n-i))
+
+# ====================================
+
+# uniq list - [1,2,3,1,2] -> l1=[1,2,3], l2=[1,2]
