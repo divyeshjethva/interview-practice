@@ -205,5 +205,28 @@
 #     print(n2,"is greater")
 # else:
 #     print(n3,"is greater")
-    
-    
+
+# =====================================
+
+# d1={'a':1,'b':2}
+# d2={'c':3,'d':4}
+
+# d1.update(d2)
+
+# print(d1)
+
+# =====================================
+
+# num = int(input("enter number :"))
+# prime = 0
+
+# for i in range(1,num+1):
+#     if num%i == 0:
+#         prime += 1
+
+# if prime == 2:
+#     print("prime num")
+# else:
+#     print("not prime")
+
+# =====================================
