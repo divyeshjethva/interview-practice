@@ -106,11 +106,53 @@
 
 # ====================================
 
-d = {}
-l1 = [1,2,3,4]
-l2 = [5,6,7,8]
+# d = {}
+# l1 = [1,2,3,4]
+# l2 = [5,6,7,8]
 
-for i in range(len(l1)):
-    d[l1[i]] = l2[i]
+# for i in range(len(l1)):
+#     d[l1[i]] = l2[i]
     
-print(d)
+# print(d)
+# ====================================
+
+# a = 10
+# b = 20
+
+# print("before",a)
+# print("before",b)
+
+# a,b = b,a
+
+# print("after",a)
+# print("After",b)
+# -------------------------------
+
+# a = 10
+# b = 20
+
+# print("before",a)
+# print("before",b)
+
+# temp = a
+# a = b
+# b = temp
+
+# print("after",a)
+# print("After",b)
+# ----------------------
+
+# a = 10
+# b = 20
+
+# print("before",a)
+# print("before",b)
+
+# a = a + b
+# b = a - b
+# a = a - b
+
+# print("after",a)
+# print("After",b)
+
+# ================================
