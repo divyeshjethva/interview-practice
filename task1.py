@@ -243,3 +243,32 @@
 # user = int(input("Enter table :"))
 # for i in range(1,11):
 #     print(user,"X",i,"=",user*i)
+
+# =====================================
+
+# a = "965"
+
+# if int(a[0]) > int(a[1]) and int(a[0]) > int(a[2]):
+#     print(int(a[0]), "is greater")
+# elif int(a[1]) > int(a[2]):
+#     print(int(a[1]), "is greater")
+# else:
+#     print(int(a[2]), "is greater")
+    
+# =====================================
+
+# d = {}
+
+# for i in range(4):
+#     key = input("enter key")
+#     value = input("enter value")
+#     d[key] = value
+
+# print(d)
+
+# =====================================
+
+name = input("Enter name :")
+f = open("demo.txt","a")
+f.write(f"hello {name}")
+f.close()
