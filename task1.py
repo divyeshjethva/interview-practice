@@ -239,3 +239,7 @@
 # print(fact)
 
 # =====================================
+
+# user = int(input("Enter table :"))
+# for i in range(1,11):
+#     print(user,"X",i,"=",user*i)
