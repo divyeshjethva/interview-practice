@@ -30,4 +30,17 @@
 #     print("pelidrom")
 # else:
 #     print("not")
+
 # ================================
+
+a = input("enter to check armstrong number :")
+sum = 0
+d = 1
+for i in a:
+    d = int(i) * int(i) * int(i)
+    sum += d
+
+if int(a)==sum:
+    print("armstrong")
+else:
+    print("not")
