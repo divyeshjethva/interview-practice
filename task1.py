@@ -156,3 +156,13 @@
 # print("After",b)
 
 # ================================
+
+name = "ajay"
+d = {}
+
+for i in name:
+    if i in d:
+        d[i] = d[i] + 1
+    else:
+        d[i] = 1
+print(d)
