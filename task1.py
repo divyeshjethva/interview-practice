@@ -157,12 +157,38 @@
 
 # ================================
 
-name = "ajay"
-d = {}
+# name = "ajay"
+# d = {}
 
-for i in name:
-    if i in d:
-        d[i] = d[i] + 1
-    else:
-        d[i] = 1
-print(d)
+# for i in name:
+#     if i in d:
+#         d[i] = d[i] + 1
+#     else:
+#         d[i] = 1
+# print(d)
+
+# =============================
+
+# num1 = int(input("Enter number"))
+# num2 = int(input("Enter number"))
+# oparation = input("Enter perform")
+
+# if oparation == "+":
+#     print(num1+num2)
+# elif oparation == "-":
+#     print(num1-num2)
+    
+# =============================
+
+# even = []
+# odd = []
+
+# for i in range(4):
+#     num = int(input("Enter number :"))
+#     if num % 2 == 0:
+#         even.append(num)
+#     else:
+#         odd.append(num)
+
+# print(even)
+# print(odd)
