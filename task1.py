@@ -10,12 +10,24 @@
 
 # ================================
 
-vowels = "aeiou"
+# vowels = "aeiou"
 
-user = input("enter name :")
-total = 0
+# user = input("enter name :")
+# total = 0
 
-for i in user:
-    if i in vowels:
-        total += 1
-print("total vowes is :", total)
+# for i in user:
+#     if i in vowels:
+#         total += 1
+# print("total vowes is :", total)
+
+# ================================
+
+# user = input("Enter name :")
+
+# reverse = user[::-1]
+
+# if user==reverse:
+#     print("pelidrom")
+# else:
+#     print("not")
+# ================================
