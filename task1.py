@@ -33,14 +33,26 @@
 
 # ================================
 
-a = input("enter to check armstrong number :")
-sum = 0
-d = 1
-for i in a:
-    d = int(i) * int(i) * int(i)
-    sum += d
+# a = input("enter to check armstrong number :")
+# sum = 0
+# d = 1
+# for i in a:
+#     d = int(i) * int(i) * int(i)
+#     sum += d
 
-if int(a)==sum:
-    print("armstrong")
-else:
-    print("not")
+# if int(a)==sum:
+#     print("armstrong")
+# else:
+#     print("not")
+
+# ================================
+
+a = 0
+b = 1
+user = int(input("Enter num :"))
+arr = []
+for i in range(user):
+    arr.append(a)
+    a,b = b, a+b
+    
+print(arr)
