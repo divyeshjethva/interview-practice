@@ -93,3 +93,26 @@
 # obj.fun2()
 # obj.fun3()
 # obj.fun4()
+
+# ====================================
+
+# polymorphism
+
+# class a:
+#     def fun1(self):
+#         super().fun1()
+#         print("method 1")
+# class b(a):
+#     def fun1(self):
+#         super().fun1()
+#         print("method 2")
+# class c:
+#     def fun1(self):
+#         print("method 3")
+# class d(b,c):
+#     def fun1(self):
+#         super().fun1()
+#         print("method 4")
+        
+# obj = d()
+# obj.fun1()
