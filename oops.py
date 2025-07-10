@@ -41,16 +41,33 @@
 # obj.fun3()
 # ---------------------------
 # multiple
+# class a:
+#     def fun1(self):
+#         print("method 1")
+# class b:
+#     def fun2(self):
+#         print("method 2")
+# class c(a,b):
+#     def fun3(self):
+#         print("method 3")
+# obj = c()
+# obj.fun1()
+# obj.fun2()
+# obj.fun3()
+# -------------------------
+# hirachical
 class a:
     def fun1(self):
         print("method 1")
-class b:
+class b(a):
     def fun2(self):
         print("method 2")
-class c(a,b):
+class c(a):
     def fun3(self):
         print("method 3")
-obj = c()
+obj = b()
 obj.fun1()
 obj.fun2()
+obj = c()
+obj.fun1()
 obj.fun3()
