@@ -1,0 +1,48 @@
+connection :
+
+import pymysql    #pip install pymysql
+connection = pymysql.connect(
+    host="localhost",
+    user="root",
+    password="",
+    database="my"
+)
+cursor = connection.cursor()
+
+connection.commit()
+==========================================================
+creat database: 
+
+CREATE DATABASE IF NOT EXISTS mydb
+==========================================================
+table :
+
+cursor.execute("CREATE TABLE IF NOT EXISTS bank (id INT
+AUTO_INCREMENT PRIMARY KEY,name VARCHAR(100), balance INT)")
+=========================================================
+insert :
+
+cursor.execute(f"INSERT INTO bank (name,balance) VALUES
+('{name}',{balance})")
+=========================================================
+update :
+
+query="UPDATE bank SET name = '%s', balance= %s WHERE id = %s"
+value = (name,balance,id)
+cursor.execute(query % value)
+=========================================================
+read :
+
+cursor.execute("SELECT * FROM bank")
+data = cursor.fetchall()
+print(data)
+connection.commit()
+
+=========================================================
+delete :
+
+query = "delete from cmp where id='%s'"
+args = (id)
+cursor.execute(query % args)
+connection.commit()
+print("data deleted")

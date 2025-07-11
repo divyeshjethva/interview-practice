@@ -1,0 +1,101 @@
+oops :
+
+1. class object :
+
+class a:
+   def fun1(self):
+	print("method 1")
+   def fun2(self):
+	print("method 2")
+obj = a()
+obj.fun1()
+obj.fun2()
+
+2. inheritance
+
+- single 
+	A
+	|
+	|
+	B
+
+- multilevel
+	A
+	|
+	|
+	B
+	|
+	|
+	C
+- multiple 
+	A    B
+         \  /
+          \/
+          C
+- hirachical
+	A
+       / \
+      /   \
+     B     C
+- hybrid 
+	A
+	|
+	|
+	B    C
+	\    /
+	 \  /
+	   D
+
+3. poly morphism :
+
+
+class a:
+   def fun1(self):
+	   super().fun1()
+	   print("method 1")
+class b:
+   def fun1(self):
+	   print("method 2")
+class c(a,b):
+   def fun1(self):
+	   super().fun1()
+	   print("method 3")
+
+obj = c()
+obj.fun1()
+
+
+
+4. encapulation :
+
+class a:
+   def fun1(self):
+	a = 10
+	self.a = a
+
+   def fun2(self):
+	print(self.a)
+
+obj = a()
+obj.fun1()
+obj.fun2()
+
+5. abstration
+
+
+
+
+====>  Constrotor
+
+__init__  // automatic call function
+
+
+
+
+====> lamda function 
+
+x = lambda a: a + 10
+print(x(5))
+----------------------
+x = lambda a: print(a)
+print(x(5))

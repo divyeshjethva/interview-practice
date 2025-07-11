@@ -1,0 +1,160 @@
+tuple :
+-------
+they are immutable (cannot be changed after creation).
+
+count =
+t = (1, 2, 3, 2, 4, 2)
+print(t.count(2))  # Output: 3
+
+index =
+t = (10, 20, 30, 40)
+print(t.index(30))  # Output: 2
+
+
+set :
+-----
+Unordered collection of unique elements.
+Defined using curly braces {} or set().
+
+add =
+s = {1, 2}
+s.add(3)
+print(s)  # {1, 2, 3}
+
+update = 
+s = {1, 2}
+s.update([3, 4], (5,))
+print(s)  # {1, 2, 3, 4, 5}
+
+remove :
+s = {1, 2, 3}
+s.remove(2)
+print(s)  # {1, 3}
+
+pop =
+s = {10, 20, 30}
+x = s.pop()
+print(x)  # Random element
+print(s)  # Remaining elements
+
+clear =
+s = {1, 2, 3}
+s.clear()
+print(s)  # set()
+
+list:
+------
+
+A list is an ordered, mutable (changeable),
+and iterable collection of elements.
+
+append =
+l = [1, 2]
+l.append(3)
+print(l)  # [1, 2, 3]
+
+extend =
+l = [1, 2]
+l.extend([3, 4])
+print(l)  # [1, 2, 3, 4]
+
+ 
+insert =
+l = [1, 3]
+l.insert(1, 2)
+print(l)  # [1, 2, 3]
+
+remove =
+l = [1, 2, 3, 2]
+l.remove(2)
+print(l)  # [1, 3, 2]
+
+pop =
+l = [10, 20, 30]
+print(l.pop())     # 30
+print(l.pop(0))    # 10
+print(l)           # [20]
+
+clear =
+l = [1, 2, 3]
+l.clear()
+print(l)  # []
+
+index =
+l = [10, 20, 30]
+print(l.index(20))  # 1
+
+count =
+l = [1, 2, 2, 3, 2]
+print(l.count(2))  # 3
+
+sort =
+l = [3, 1, 2]
+l.sort()
+print(l)  # [1, 2, 3]
+
+l.sort(reverse=True)
+print(l)  # [3, 2, 1]
+
+reverce = 
+l = [1, 2, 3]
+l.reverse()
+print(l)  # [3, 2, 1]
+
+copy = 
+l1 = [1, 2, 3]
+l2 = l1.copy()
+print(l2)  # [1, 2, 3]
+
+
+dictonary :
+-----------
+A dictionary is a collection of key-value pairs,
+defined using curly braces {}.
+
+get = 
+d = {'name': 'Alice'}
+print(d.get('name'))     # Alice
+
+key =
+d = {'a': 1, 'b': 2}
+print(d.keys())  # dict_keys(['a', 'b'])
+
+values =
+d = {'a': 1, 'b': 2}
+print(d.values())  # dict_values([1, 2])
+
+items = 
+d = {'a': 1, 'b': 2}
+print(d.items())  # dict_items([('a', 1), ('b', 2)])
+
+update =
+d1 = {'a': 1}
+d2 = {'b': 2}
+d1.update(d2)
+print(d1)  # {'a': 1, 'b': 2}
+
+pop =
+d = {'x': 10, 'y': 20}
+print(d.pop('x'))      # 10
+
+pop items =
+d = {'a': 1, 'b': 2}
+print(d.popitem())  # ('b', 2)
+
+fromkeys =
+keys = ['a', 'b', 'c']
+d = dict.fromkeys(keys, 1)
+print(d)  # {'a': 0, 'b': 0, 'c': 0}
+
+
+
+
+
+
+
+
+
+
+
+

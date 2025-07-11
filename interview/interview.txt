@@ -1,0 +1,55 @@
+CORE PYTHON TASK :
+
+1. mid of string - divyesh -> vye
+2. Count vowels and consonants in a string - a,i,o,u,e
+3. pelidrom - wow,nayan
+4. armstrong - 153 -> 1*1*1 + 5*5*5 + 3*3*3 -> 153
+5. fibonaci series - 0,1,1,2,3,5,8,13,21
+6. star pattern -> triangle,pyramid,reverce
+7. uniq list - [1,2,3,1,2] -> l1=[1,2,3], l2=[1,2]
+8. convert to dictonary :
+	l1 = [1,2,3,4]
+	l2 = [5,6,7,8]
+	->
+	{
+		1:5,
+		2:6,
+		3:7,
+		4:8
+	}
+9. number swap = a,b = b,a  , three method
+10. charecter counter - ajay -> {a:2,j:1,y,1}
+11. calculator
+12. even or odd - all even or odd num store in l1,l2
+13. three input - compare to what is a large number find
+14. Merge two dictionaries ->d1={a:1,b:2}, d2={c:3,d:4} -> d = {a:1,b:2,c:3,d:4}
+15. Create a function to check prime numbers -> 1,5,7,11,13
+16. find factorial of a number - 5 -> 120
+17. Print multiplication table of any number - 5 -> 5 * 1 = 5 to 50
+18. Find the largest of three numbers.
+19. Invert keys and values in a dictionary - 2 input lo or use dictonary me add karte jao
+20. save note on txt file use file handling r,w,a
+21. number guessing game : use random
+22. otp generator : use random
+
+
+
+
+MENU DRIVEEN:
+
+1. bank management
+2. stock market
+3. e notebook
+4. fruit store
+5. quiz management
+6. e-commerce
+7. singup or login
+
+
+PROJECT TASK IDEAS :
+
+1. E-Notebook (File-based or GUI)
+2. Simple Billing System using functions or OOP
+3. Student Grade Management System
+4. To-Do List CLI App
+5. ATM Machine Simulation
