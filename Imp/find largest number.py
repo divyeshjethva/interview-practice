@@ -9,5 +9,6 @@ for i in range(n):
         if l[j]<l[j+1]:
             l[j], l[j+1]=l[j+1],l[j]
     print(l)
+    
             
 print(l[0])
