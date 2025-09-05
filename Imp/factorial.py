@@ -17,7 +17,9 @@ def fun(n,f=1):
     if n == 0:
         print(f)
         return
-    f*=n
+    f=f * n
     fun(n-1,f)
+    
 fun(5)
+
 
