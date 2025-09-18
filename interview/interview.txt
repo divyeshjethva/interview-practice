@@ -31,8 +31,11 @@ CORE PYTHON TASK :
 20. save note on txt file use file handling r,w,a
 21. number guessing game : use random
 22. otp generator : use random
-
-
+23. find largest number in list - bubble sort
+24. [2,'fff',6,4,'ou'] isame se tring or integer ko alag karo
+25. d1 = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+	d2 = {'a': 2, 'b': 5, 'c': 4, 'd': 9}
+	in dono value ka plus karake do
 
 
 MENU DRIVEEN:
