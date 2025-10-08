@@ -85,3 +85,23 @@
 # s = "pythonMLV"
 # o = 'MLVoyphtn'
 # ---------------------------------
+# s = "pythonMLV"
+
+# # MLV + o + y + p + h + t + n
+
+# o = s[6:9] + s[4] + s[1] + s[0] + s[3] + s[2] + s[5]
+
+# print(o)  # Output: MLVoyphtn
+
+# ---------------------------------
+
+s = "pythonMLV"
+
+indices = [6, 7, 8, 4, 1, 0, 3, 2, 5]
+
+o = ""
+for i in indices:
+    o = o + s[i]
+
+print(o)  # Output: MLVoyphtn
+# ---------------------------------
