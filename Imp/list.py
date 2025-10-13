@@ -105,3 +105,17 @@ for i in indices:
 
 print(o)  # Output: MLVoyphtn
 # ---------------------------------
+
+
+# a = int(input("Enter first :"))
+# b = int(input("Enter first :"))
+# c = input("Enter perform task :")
+
+# if c == "+":
+#     v = a+b
+#     print(v)
+# elif c == "-":
+#     v = a-b
+#     print(v)
+
+
