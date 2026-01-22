@@ -2,9 +2,9 @@ CORE PYTHON TASK :
 
 1. mid of string - divyesh -> vye
 2. Count vowels and consonants in a string - a,i,o,u,e
-3. pelidrom - wow,nayan
+3. pelidrom - wow,nayan, recursion
 3.5 number pelidrom
-4. armstrong - 153 -> 1*1*1 + 5*5*5 + 3*3*3 -> 153
+4. armstrong - 153 -> 1*1*1 + 5*5*5 + 3*3*3 -> 153, recursion
 5. fibonaci series - 0,1,1,2,3,5,8,13,21
 6. star pattern -> triangle,pyramid,reverce
 7. uniq list - [1,2,3,1,2] -> l1=[1,2,3], l2=[1,2]
